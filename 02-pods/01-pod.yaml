@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: HareKrishnapod1
+  name: harekrishna-pod
 spec:
   containers:
-  - name: HareKrishnapod
+  - name: harekrishna-pod
     image: nginx
     ports:
     - containerPort: 80 
