@@ -1,4 +1,4 @@
 apiVersion : apps/v1
-kind : CRD
+kind : Custom Resource Definitions
 metadata :
   name : roboshop
