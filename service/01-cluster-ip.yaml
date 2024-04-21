@@ -15,12 +15,12 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: nginx-services
+  name: nginx-service
 spec:
   selector:
     app: nginx
     demo: service
   ports:
-  - protocol: Tcp
-    port: 80
-    targetPort: 80 
+  - protocol: TCP
+    port: 80 #service-port
+    targetPort: 80 #container-port
